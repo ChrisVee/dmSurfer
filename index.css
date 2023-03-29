@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-width: 400px; /*min size so Google Chrome understands*/ 
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.input {
+    height: 50px;
+    width: 75%;
+    background: #FFE6E4;
+    border-radius: 15px;
+    text-align: center; 
+    margin: 5px;
+    padding: 0 2em;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3,0);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 1em;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 1em 1em;
+}
+
+#process {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.api-Response {
+    margin: 20px;
+}
+
+/* fix the loading div to the top of the page */
+.loadingDiv {
+    position: fixed;
+    top: 0;
+    left: 75%;
+    z-index: 999;
+    width: 100%;
+    height: 23px;
+}
+
+#api-response:not(:empty) {
+    padding: 1em;
+    margin: 2em;
+    background: wheat;
+    border-radius: 15px;
+    text-align: center; 
+}
+
+.processBtn {
+    justify-content: center;
+    width: 350px;
+    height: 114.27px;
+    left: 155px;
+    top: 619px;
+    background: #87DF9A;
+    border-radius: 15px;
+    font-family: 'Noto Serif Gujarati';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #000000;
+}
+
+#characters, #words {
+    width: 320.11px;
+    height: 100px;
+    left: 623px;
+    top: 100px;
+    background: #FFC997;
+    border-radius: 15px;
+}
+
+#character-count, #word-count {
+    font-family: 'Noto Serif Gujarati';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}

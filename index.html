@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<title>DM Surfer</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1>DM Surfer</h1>
+    <p>send personalized messages to get job interviews</p>
+	<input type="text" class="input" id="input" placeholder="Who are you writing to?"></input>
+	<input type="text" class="input" id="role" placeholder="What role is it for?"></input>
+	<input type="text" class="input" id="jobDescription" placeholder="Copy/paste the Job Description"></input>
+	<div class="loadingDiv" id="loadingDiv">
+		<img src="/images/spinner.gif" id="loading" style="display: none">
+	</div>
+	<!-- <h4>Subject Line</h4>
+	<p id="subjectLine" class="subjectLine"> </p> -->
+	<h4>Message</h4>
+	<p id="api-Response" class="api-Response"> </p>
+	<div class="container">
+		<div id="process">
+			<button id="processBtn" class="processBtn">Process</button>
+		</div>
+		<div id="characters">
+			<h3>Characters</h3>
+			<p id="character-count"> 0 </p>
+		</div>
+	</div>
+	<div id="contact-me">
+		<p>Questions?</p>
+		<p>Contact me on <a href="https://twitter.com/ChrisViglietta">Twitter</a></p>
+	</div>
+
+	<footer>
+		<div class="footer-container">
+			<p>Built by Chris Viglietta 2023</p>
+		</div>
+	</footer>
+
+	<script type='text/javascript' src="./config.js"></script>
+	<script src="./index.js"></script>
+</body>
+
+</html>
