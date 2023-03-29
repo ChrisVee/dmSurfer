@@ -1,3 +1,3 @@
 const config = {
-    SECRET_API_KEY : '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',
+    SECRET_API_KEY : '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',
   }
