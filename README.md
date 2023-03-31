@@ -2,7 +2,7 @@ What does it do?
 
 It helps you write personalized messages 2x faster to connect with Recruiters on LinkedIn.
 
-You can add my Chrome Extension here: 
+You can try my Chrome Extension for free here: 
 
 https://chrome.google.com/webstore/detail/dm-surfer/knelokjhnnidbejpnappnkjegemmgncn/related?hl=en&authuser=0
 
